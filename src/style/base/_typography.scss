@@ -10,11 +10,20 @@ a {
   font-size: $default-font-size;
 }
 
+.link {
+  color: $dark-blue-text;
+}
+
+.link:hover {
+  color: $white-color;
+}
+
 a,
 a:link,
 a:hover,
 a:visited,
-a:active {
+a:active,
+span a {
   text-decoration: none;
 }
 
@@ -51,3 +60,13 @@ a:hover {
     transform: translateX(2px);
   }
 }
+
+.source-btn {
+  color: $primary-color;
+
+  &:hover {
+    color: $tertiary-color;
+    transform: translateX(2px);
+  }
+}
+

@@ -52,8 +52,14 @@
     margin: $default-font-size $default-font-size;
     transition: all 0.2s ease-in;
 
-    &:hover {
-      transform: translateY(-2px);
+    i {
+      color: $white-color;
+      transition: all 0.2s ease-in;
+
+      &:hover {
+        color: $tertiary-color;
+        transform: translateY(-2px);
+      }
     }
   }
 }
@@ -64,6 +70,7 @@
   transition: all 0.2s ease-in;
 
   &:hover {
-    transform: translateY(-2px);
+    transform: translateY(-2px); 
+    color: $tertiary-color;
   }
 }
